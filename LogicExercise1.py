@@ -526,6 +526,9 @@ Numbers: {l}
 Sum of numbers: {s}
 Average of numbers: {a}""")
 
+
+'''
+
 #Create a function process_string that takes a string and two keyword arguments: case (which can be "upper" or "lower")
 #and remove_spaces (a boolean). The function should first convert the string to upper or lower case based on the case
 #argument and then remove spaces if remove_spaces is True.
@@ -542,7 +545,6 @@ sp = input("Remove spaces[Y or N]? ").lower()
 c = input("Choose [upper] or [lower]: ").lower()
 result = process_string(enter, sp, c)
 print(result)
-
 #Create a function that checks if two strings are anagrams. An anagram is a word or phrase formed by rearranging the
 #letters of a different word or phrase, typically using all the original letters exactly once.
 def is_anagram(str1, str2):
@@ -570,4 +572,4 @@ enter = int(input("Enter a  number: "))
 print(is_armstrongnum(enter))
 
 
-'''
+
