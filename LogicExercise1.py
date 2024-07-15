@@ -526,9 +526,6 @@ Numbers: {l}
 Sum of numbers: {s}
 Average of numbers: {a}""")
 
-
-'''
-
 #Create a function process_string that takes a string and two keyword arguments: case (which can be "upper" or "lower")
 #and remove_spaces (a boolean). The function should first convert the string to upper or lower case based on the case
 #argument and then remove spaces if remove_spaces is True.
@@ -570,6 +567,6 @@ def is_armstrongnum(num):
     return add == num
 enter = int(input("Enter a  number: "))
 print(is_armstrongnum(enter))
-
+'''
 
 
