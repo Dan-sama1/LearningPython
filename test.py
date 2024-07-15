@@ -1,0 +1,16 @@
+print('='*10)
+print('test')
+name = input('Enter your name: ')
+age = input('Enter your age: ')
+bday = 2024 - int(age)
+print(bday)
+wrd = f"My name is {name}, I am {age} and my birthdate is{bday}"
+print('in uppercase: ' + wrd.upper())
+print('in lowercase: ' + wrd.lower())
+
+print('=' * 10)
+sen = input('Enter a sentence: ')
+fin = sen.find(input('Search a word: '))
+print(fin)
+rep = sen.replace(input('Enter a word: '), input('Replace: '))
+print(rep)
